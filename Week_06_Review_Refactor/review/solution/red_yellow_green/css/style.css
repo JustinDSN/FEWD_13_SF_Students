@@ -1,0 +1,25 @@
+div.wrapper div {
+  height: 150px;
+  margin-bottom: 20px;
+  border:5px solid black;
+  cursor: pointer;
+}
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+div.wrapper div.red {
+  background: #e74c3c;
+  border-color: #c0392b;
+}
+
+div.wrapper div.yellow {
+  background: #FFFF00;
+  border-color: #f1c40f;
+}
+
+div.wrapper div.green {
+  background: #2ecc71;
+  border-color: #27ae60;
+}
