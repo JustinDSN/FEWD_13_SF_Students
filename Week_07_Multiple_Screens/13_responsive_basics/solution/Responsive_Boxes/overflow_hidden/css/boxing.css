@@ -1,0 +1,18 @@
+* {
+  border: 1px solid black;
+}
+
+html, body, footer, #container {
+  border:none;
+}
+
+header {
+  overflow: hidden;
+}
+
+.small-box {
+  float:left;
+  height: 150px;
+  width: 150px;
+  background: red;
+}
