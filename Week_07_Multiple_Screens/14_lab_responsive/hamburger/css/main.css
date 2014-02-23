@@ -1,0 +1,43 @@
+a {
+  color:white;
+}
+
+header {
+  background:black;
+  color: white;
+}
+
+header nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  float:left;
+  margin-right: 10px;
+}
+
+header nav ul li:first-of-type {
+  display:none;
+}
+
+#mobileNav {
+  display: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+  header nav ul li {
+    display: none;
+  }
+  header nav ul li:first-of-type {
+    display:block;
+    float: right;
+  }
+}
