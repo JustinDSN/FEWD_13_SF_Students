@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<form>
+        <label for="searchField">Enter search term: </label>
+        <input type="text" id="searchField">
+        <input type="submit" id="searchButton" value="Search">
+        <img id="loader" src="images/ajax-loader.gif">
+      </form>
+      <ul class="my-movies-list"></ul>
+      <img class="my-movie-poster" alt="...">
+		</div><!-- #container -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/omdbapi.js"></script>
+	</body>
+</html>
